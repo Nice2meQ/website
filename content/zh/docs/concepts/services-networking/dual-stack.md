@@ -158,7 +158,7 @@ The following Service specification does not include the `ipFamily` field. Kuber
 <!--
 The following Service specification includes the `ipFamily` field. Kubernetes will assign an IPv6 address (also known as a "cluster IP") from the configured `service-cluster-ip-range` to this Service.
 -->
-以下服务规约不包含 `ipFamily` 字段。Kubernetes 将从已配置的 `service-cluster-ip-range` 范围内分配一个 IPv6 地址（也称作“集群 IP”）给该服务。
+以下服务规约包含 `ipFamily` 字段。Kubernetes 将从已配置的 `service-cluster-ip-range` 范围内分配一个 IPv6 地址（也称作“集群 IP”）给该服务。
 
 {{< codenew file="service/networking/dual-stack-ipv6-svc.yaml" >}}
 
